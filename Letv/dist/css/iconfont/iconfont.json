@@ -104,6 +104,13 @@
       "unicode_decimal": 59057
     },
     {
+      "icon_id": "838048",
+      "name": "7天无理由退货",
+      "font_class": "7tianwuliyoutuihuo",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
       "icon_id": "853083",
       "name": "房子",
       "font_class": "fangzi",
@@ -137,6 +144,13 @@
       "font_class": "zuojiantou",
       "unicode": "e647",
       "unicode_decimal": 58951
+    },
+    {
+      "icon_id": "1190106",
+      "name": "正品保证",
+      "font_class": "zhengpinbaozheng",
+      "unicode": "e6f4",
+      "unicode_decimal": 59124
     },
     {
       "icon_id": "1211848",
@@ -193,6 +207,13 @@
       "font_class": "richscan_icon",
       "unicode": "e661",
       "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "2152776",
+      "name": "位置",
+      "font_class": "weizhi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
     },
     {
       "icon_id": "2380651",
@@ -324,8 +345,8 @@
       "icon_id": "8575170",
       "name": "点赞",
       "font_class": "dianzan",
-      "unicode": "e618",
-      "unicode_decimal": 58904
+      "unicode": "e61a",
+      "unicode_decimal": 58906
     },
     {
       "icon_id": "8841994",

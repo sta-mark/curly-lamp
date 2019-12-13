@@ -22,7 +22,7 @@
                     display:block;
                     float:left;
                     &:hover{
-                        color:skyblue;
+                        color:#2884c7;
                     }
                 }
             }
@@ -37,7 +37,7 @@
                     font-size:12px;
                     color:#fff;
                     &:hover{
-                        color:skyblue;
+                        color:#2884c7;
                     }
                 }
                 .empty{
@@ -60,7 +60,7 @@
                     float:left;
                     color:#fff;
                     &:hover{
-                        color:skyblue;
+                        color:#2884c7;
                     }
                 }
                 span{
@@ -98,7 +98,7 @@
                 a{
                     color:#000;
                     &:hover{
-                        color:skyblue;
+                        color:#2884c7;
                     }
                 }
                 .divno{
@@ -140,7 +140,7 @@
                 a{
                     color:#000;
                     &:hover{
-                        color:skyblue;
+                        color:#2884c7;
                     }
                 }
                 .divno{
@@ -247,7 +247,7 @@
             border:1px solid #dddddd;
             margin-top:8px;
             position: relative;
-            left:25px;
+            left:31px;
             .btnx{
                 width:14px;
                 height:14px;
@@ -320,7 +320,7 @@
                 width:1000px;
                 height:420px;
                 float:left;
-                // display:none;
+                display:none;
                 ul{
                     width:1000px;
                     height:420px;
@@ -328,8 +328,6 @@
                     display:none;
                 }
                 .faddish{
-                    top:-18px;
-                    display:none;
                     .faddishdiv{
                         width:750px;
                         height:400px;
@@ -375,27 +373,262 @@
                     }
                 }
                 .size{
-                    display:block;
-                    background:red;
                     .sizekind{
                         width:160px;
                         margin:10px 20px;
-                        div{
+                        .size43{
                             font-size:14px;
-                            padding:10px 0px;
+                            padding:10px 0px 20px;
                         }
                         li{
                             width:160px;
+                            height:34px;
                             clear:left;
+                            margin-bottom:30px;
                             a{
                                 img{
                                     width:40px;
                                     height:34px;
+                                    float:left;
+                                }
+                                span{
+                                    display:block;
+                                    float:left;
+                                    font-size:12px;
+                                    width:60px;
+                                    height:35px;
+                                    padding-left:10px;
+                                    line-height:35px;
+                                    font-weight:900;
                                 }
                             }
                         }
                     }
-                }  
+                }
+                .scene{
+                    .scenekind{
+                        width:140px;
+                        margin:10px 20px;
+                        .scenekindone{
+                            margin-top:10px;
+                            height:74px;
+                            div{
+                                height:20px;
+                                font-size:12px;
+                                display:block;
+                                float:none;
+                            }
+                            .ket{
+                                color:#dddddd;
+                            }
+                        }
+                        li{
+                            width:140px;
+                            height:34px;
+                            clear:left;
+                            margin-bottom:30px;
+                            a{
+                                img{
+                                    width:40px;
+                                    height:34px;
+                                    float:left;
+                                }
+                                span{
+                                    display:block;
+                                    float:left;
+                                    font-size:12px;
+                                    width:60px;
+                                    height:35px;
+                                    padding-left:10px;
+                                    line-height:35px;
+                                    font-weight:900;
+                                }  
+                            }
+                        }
+                    }
+                    .rightimg{
+                        float:right;
+                        margin:5px;
+                        width:240px;
+                        height:410px;
+                        a img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+                .distance{
+                    .distankind{
+                        width:160px;
+                        margin:10px 20px;
+                        .distank1{
+                            font-size:14px;
+                            padding:10px 0px 20px;
+                        }
+                        li{
+                            width:140px;
+                            height:34px;
+                            clear:left;
+                            margin-bottom:30px;
+                            a{
+                                img{
+                                    width:40px;
+                                    height:34px;
+                                    float:left;
+                                }
+                                span{
+                                    display:block;
+                                    float:left;
+                                    font-size:12px;
+                                    width:60px;
+                                    height:35px;
+                                    padding-left:10px;
+                                    line-height:35px;
+                                    font-weight:900;
+                                } 
+                            }
+                        }
+                    }
+                }
+                .parts{
+                    .partskind{
+                        width:160px;
+                        li{
+                            width:160px;
+                            height:30px;
+                            margin:30px 0 10px 30px;
+                            a{
+                                img{
+                                    width:40px;
+                                    height:34px;
+                                    float:left;
+                                }
+                                span{
+                                    width:40px;
+                                    height:30px;
+                                    line-height:30px;
+                                    padding-left:10px;
+                                    font-size:14px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .live{
+                    .livekind{
+                        width:160px;
+                        li{
+                            width:160px;
+                            height:30px;
+                            margin:30px 0 10px 30px;
+                            a{
+                                img{
+                                    width:50px;
+                                    height:34px;
+                                    float:left;
+                                }
+                                span{
+                                    width:30px;
+                                    height:30px;
+                                    line-height:30px;
+                                    padding-left:10px;
+                                    font-size:12px;
+                                    font-weight:700;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .permsg{
+                position: absolute;
+                left:958px;
+                width:238px;
+                height:404px;
+                margin:8px 0px;
+                background:#fff;
+                .person{
+                    width:238px;
+                    height:182px;
+                    padding-top:20px;
+                    .user-heading{
+                        width:238px;
+                        height:62px;
+                        img{
+                            width:62px;
+                            height:62px;
+                            margin:0 auto;
+                        }
+                    }
+                    .user-title{
+                        width:238px;
+                        height:21px;
+                        text-align:center;
+                        font-size:12px;
+                        line-height:21px;
+                    }
+                    .user-desc{
+                        width:238px;
+                        height:18px;
+                        text-align:center;
+                        font-size:12px;
+                        line-height:21px;
+                    }
+                    .user-btn{
+                        width:216px;
+                        height:56px;
+                        padding:9px 0 0 22px;
+                        a{
+                            display:block;
+                            float: left;
+                            width:88px;
+                            height:32px;
+                            border-radius:5px;
+                            text-align:center;
+                            line-height: 32px;
+                            font-weight:600;
+                            font-size:14px;
+                            margin:0 5px;
+                        }
+                        .login{
+                            background:#2884c7;
+                            color:#fff;
+                        }
+                        .register{
+                            background: #dddddd;
+                        }
+                    }
+                }
+                .storemsg{
+                    width:226px;
+                    height:201px;
+                    margin-left:6px;
+                    border-top:1px solid #ddd;
+                    .newshead{
+                        width:226px;
+                        height:20px;
+                        padding-top:20px;
+                        span{
+                            font-size:14px;
+                            font-weight:700;
+                        }
+                        a{
+                            font-size:12px;
+                            float:right;
+                        }
+                    }
+                    .newslist{
+                        padding-top:5px;
+                        li{
+                            width:224px;
+                            height:25px;
+                            clear:left;
+                            a{
+                                font-size:12px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
@@ -407,36 +640,662 @@
     .ban{
         width:100%;
         height:420px;
-        li{
-            width:100%;
-            height:420px;
-            a{
+        ul{
+            li{
                 width:100%;
                 height:420px;
+                float:left;
+                display:none;
+                a{
+                    width:100%;
+                    height:420px;
+                    display:block;
+                    img{
+                        width:1196px;
+                        height:100%;   
+                        margin:0 auto;
+                    }
+                }
+            }
+            .ban1{
+                background:#1682c0;
                 display:block;
+            }
+            .ban2{
+                background:#fbe8d9;
+            }
+            .ban3{
+                background:#ee2245;
+            }
+            .ban4{
+                background:#fdeae6;
+            }
+        }
+        
+    }
+}
+/* 
+    超级电视 s模块
+*/
+.sectionbox{
+    background:#fff;
+    .section{
+        width:1196px;
+        height:140px;
+        margin: 10px auto;
+        .superk{
+            width:196px;
+            height:140px;
+            float:left;
+            a{
                 img{
-                    width:1196px;
-                    height:100%;   
-                    margin:0 auto;
+                    width:100%;
+                    height:100%;
                 }
             }
         }
-        .ban1{
-            background:#1682c0;
-        }
-        .ban2{
-            background:#fbe8d9;
-        }
-        .ban3{
-            background:#ee2245;
-        }
-        .ban4{
-            background:#fdeae6;
+        .superl{
+            width:1000px;
+            height:140px;
+            float: left;
+            li{
+                width:238px;
+                height:140px;
+                margin-left:12px;
+                float:left;
+                a{
+                    float:left;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+            }
         }
     }
-    .permsg{
-        position: absolute;
-        top:0px;
-        right:0;
+}
+/* 
+    超级电视 E模块
+*/
+.supertvbox{
+    background:#f2f2f2;
+    .supertv{
+        width:1196px;
+        height:799px;
+        margin:0 auto;
+        padding-top:15px;
+        .supertv-head{
+            width:1196px;
+            height:30px;
+            .supertv-title{
+                width:245px;
+                height:30px;
+                float:left;
+                strong{
+                    font-size:20px;
+                }
+                i{
+                    padding:0px 15px;
+                }
+                span{
+                    font-size:14px;
+                }
+            }
+            .supertv-select{
+                width:334px;
+                height:30px;
+                float:right;
+                margin:0;
+                li{
+                    float:left;
+                    font-size:14px;
+                    a{
+                        float:left;
+                        font-size:14px;
+                    }
+                }
+                .separator{
+                    padding:0px 16px;
+                }
+            }
+        }
+        .productlist-type{
+            width:1196px;
+            height:768px;
+            .productlist{
+                width:1210px;
+                height:768px;
+                li{
+                    margin:0 12px 12px 0;
+                    float:left;
+                    a{
+                        display:block;
+                        width:592px;
+                        height:372px;
+                        float:left;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+                .productkind{
+                    width:290px;
+                    height:362px;
+                    padding-top:10px;
+                    background:#fff;
+                    position: relative;
+                    overflow: hidden;
+                    .product-label{
+                        width:290px;
+                        height:20px;
+                        span{
+                            width:72px;
+                            height:20px;
+                            text-align:center;
+                            line-height:20px;
+                            font-size:12px;
+                            color:#fff;
+                            display:block;
+                            float:left;
+                            margin:0 10px;
+                            border-radius:3px;
+                        }
+                        .newpro{
+                            background:#3ece17;
+                            margin-left:63px;
+                        }
+                        .hotsale{
+                            background:#f2a705;
+                        }
+                    }
+                }
+                .product-pic{
+                    width:290px;
+                    height:230px;
+                    a{
+                        margin-left:30px;
+                        width:230px;
+                        height:230px;
+                        img{
+                            width:230px;
+                            height:230px;
+                            margin:0 auto;
+                        }
+                    }
+                }
+                .pro-type{
+                    width:290px;
+                    height:16px;
+                    padding-top:7px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    text-align:center;
+                }
+                .pro-desc{
+                    width:290px;
+                    height:16px;
+                    padding-top:3px;
+                    font-size:12px;
+                    text-align:center;
+                    color:#999999;
+                }
+                .pro-price{
+                    width:290px;
+                    height:20px;
+                    padding-top:8px;
+                    strong{
+                        font-size:16px;
+                        color:red;
+                        padding:0px 10px;
+                        margin-left:73px;
+                    }
+                    span{
+                        font-size:16px;
+                        color:#999;
+                        padding:0px 10px;
+                        text-decoration:line-through;
+                    }
+                }
+                .pro-buy{
+                    width:290px;
+                    height:28px;
+                    padding-top:12px;
+                    position: absolute;
+                    top:372px;
+                    a{
+                        width:92px;
+                        height:28px;
+                        font-size:14px;
+                        color:#fff;
+                        text-align: center;
+                        line-height:28px;
+                        border-radius:3px;
+                        margin:0px 10px;
+                    }
+                    .knowpro{
+                        background:#2884c7;
+                        margin-left:43px;
+                    }
+                    .nowbuy{
+                        background:#ed1c24;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 
+    精选配件
+ */
+.choicenessbox{
+    background:#f2f2f2;
+    .choiceness{
+        width:1196px;
+        height:651px;
+        margin:0 auto;
+        padding-top:10px;
+        .choiceness-head{
+            width:1196px;
+            height:30px;
+            padding-top:10px;
+            .choiceness-title{
+                width:245px;
+                height:30px;
+                float:left;
+                strong{
+                    font-size:20px;
+                }
+                i{
+                    padding:0px 15px;
+                }
+                span{
+                    font-size:14px;
+                }
+            }
+            .choiceness-type{
+                width:354px;
+                height:30px;
+                float:right;
+                margin:0;
+                li{
+                    float:left;
+                    font-size:14px;
+                    a{
+                        float:left;
+                        font-size:14px;
+                    }
+                }
+                .separator{
+                    padding:0px 16px;
+                }
+            }
+        }
+        .choiceness-list{
+            width:1196px;
+            height:620px;
+            .choiceness-banner{
+                width:236px;
+                height:608px;
+                float:left;
+                margin-right:12px;
+                a{
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+            }
+        }
+        .choiceness-product{
+            width:1210px;
+            height:620px;
+            li{
+                width:228px;
+                height:278px;
+                float:left;
+                padding-top:20px;
+                margin:0 12px 12px 0;
+                position: relative;
+                background:#fff;
+                overflow: hidden;
+                .choiceness-pic{
+                    width:160px;
+                    height:160px;
+                    margin:0 auto;
+                    a{
+                        float:left;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+                .choiceness-type{
+                    width:228px;
+                    height:16px;
+                    padding-top:7px;
+                    font-size:14px;
+                    font-weight:700;
+                    text-align: center;
+                }
+                .choiceness-desc{
+                    width:228px;
+                    height:16px;
+                    padding-top:3px;
+                    font-size:12px;
+                    text-align:center;
+                    color:#999999;
+                }
+                .choiceness-price{
+                    width:228px;
+                    height:28px;
+                    padding-top:9px;
+                    color:red;
+                    text-align: center;
+                }
+                .choiceness-buy{
+                    width:228px;
+                    height:28px;
+                    position: absolute;
+                    top:298px;
+                    a{
+                        display:block;
+                        width:92px;
+                        height:28px;
+                        font-size:14px;
+                        color:#fff;
+                        text-align: center;
+                        line-height:28px;
+                        border-radius:3px;
+                        margin:0px 10px;
+                        background:#ed1c24;
+                        margin-left:68px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 
+    生活家 
+*/
+.livebox{
+    background:#f2f2f2;
+    .live{
+        width:1196px;
+        height:651px;
+        margin:0 auto;
+        padding-top:10px;
+        .live-head{
+            width:1196px;
+            height:30px;
+            padding-top:10px;
+            .live-title{
+                width:245px;
+                height:30px;
+                float:left;
+                strong{
+                    font-size:20px;
+                }
+                i{
+                    padding:0px 15px;
+                }
+                span{
+                    font-size:14px;
+                }
+            }
+            .live-type{
+                width:354px;
+                height:30px;
+                float:right;
+                margin:0;
+                li{
+                    float:left;
+                    font-size:14px;
+                    a{
+                        float:left;
+                        font-size:14px;
+                    }
+                }
+                .separator{
+                    padding:0px 16px;
+                }
+            }
+        }
+        .live-list{
+            width:1196px;
+            height:620px;
+            .live-banner{
+                width:236px;
+                height:608px;
+                float:left;
+                margin-right:12px;
+                a{
+                    display:block;
+                    width:236px;
+                    height:298px;
+                    margin-bottom:12px;
+                    img{
+                        width:100%;
+                        height:100%;
+                    }
+                }
+                
+            }
+        }
+        .live-product{
+            width:1210px;
+            height:620px;
+            li{
+                width:228px;
+                height:278px;
+                float:left;
+                padding-top:20px;
+                margin:0 12px 12px 0;
+                position: relative;
+                background:#fff;
+                overflow: hidden;
+                .live-pic{
+                    width:160px;
+                    height:160px;
+                    margin:0 auto;
+                    a{
+                        float:left;
+                        img{
+                            width:100%;
+                            height:100%;
+                        }
+                    }
+                }
+                .live-type{
+                    width:228px;
+                    height:16px;
+                    padding-top:7px;
+                    font-size:14px;
+                    font-weight:700;
+                    text-align: center;
+                }
+                .live-desc{
+                    width:228px;
+                    height:16px;
+                    padding-top:3px;
+                    font-size:12px;
+                    text-align:center;
+                    color:#999999;
+                }
+                .live-price{
+                    width:228px;
+                    height:28px;
+                    padding-top:9px;
+                    color:red;
+                    text-align: center;
+                }
+                .live-buy{
+                    width:228px;
+                    height:28px;
+                    position: absolute;
+                    top:298px;
+                    a{
+                        display:block;
+                        width:92px;
+                        height:28px;
+                        font-size:14px;
+                        color:#fff;
+                        text-align: center;
+                        line-height:28px;
+                        border-radius:3px;
+                        margin:0px 10px;
+                        background:#ed1c24;
+                        margin-left:68px;
+                    }
+                }
+            }
+        }
+    }
+}
+/* 
+    快捷入口
+    footer
+*/
+.footerbox{
+    background:#f2f2f2;
+    padding-top:30px;
+    .footer-top{
+        width:1196px;
+        height:78px;
+        margin:0 auto;
+        .footer-server{
+            width:1196px;
+            height:38px;
+            padding:20px 0px;
+            li{
+                width:240px;
+                height:38px;
+                float:left;
+                padding-left:59px;
+                line-height:38px;
+                i{
+                    display:block;
+                    float:left;
+                    width:38px;
+                    height:38px;
+                    text-align:center;
+                    line-height: 38px;
+                    border:1px solid gray;
+                    border-radius:15px;
+                    color:gray;
+                }
+                span{
+                    margin-left:15px;
+                    color:gray;
+                }
+                a .iconfont{
+                    font-size:20px;
+                }
+                a:hover span{
+                    color:#2884c7;
+                }
+            }
+        }
+        
+    }
+    .footer-middle{
+        height:196px;
+        background:#151515;
+        .footer-help{
+            width:1137px;
+            height:168px;
+            margin:0 auto;
+            padding:28px 0 0 59px;
+            dl{
+                width:200px;
+                float:left;
+                dt{
+                    width:200px;
+                    font-size:14px;
+                    color:#fff;
+                    height:30px;
+                    line-height:30px;
+                }
+                dd{
+                    font-size:12px;
+                    height:21px;
+                    line-height: 21px;
+                    a{
+                        color:#888888;
+                        &:hover{
+                            color:#2884c7;
+                        }
+                    }
+                }
+            }
+            .footright{
+                width:158px;
+                height:137px;
+                float:right;
+                margin-right:86px;
+                .phone{
+                    width:158px;
+                    height:26px;
+                    font-size:22px;
+                    text-align: center;
+                    margin-bottom:5px;
+                    color:#F05353;
+                }
+                .server{
+                    a{
+                        display:block;
+                        width:156px;
+                        height:32px;
+                        border:1px solid #575756;
+                        font-size:14px;
+                        text-align:center;
+                        line-height:32px;
+                        color:#fff;
+                        &:hover{
+                            background:gray;
+                        }
+                    }
+                }
+                .server-time{
+                    width:158px;
+                    height:16px;
+                    font-size:12px;
+                    color:#fff;
+                    text-align: center;
+                    margin:10px 0;
+                }
+                .hint{
+                    width:158px;
+                    span{
+                        display: block;
+                        width:158px;
+                        text-align: center;
+                        font-size:12px;
+                        color:#888888;
+                    }
+                }
+            }
+        }
+    }
+    .footerbottom{
+        height:45px;
+        background:#151515;
+        .footerbo{
+            width:1196px;
+            height:45px;
+            padding-top:7px;
+            text-align:center;
+            margin:0 auto;
+            border-top:1px solid #303030;
+            span,a{
+                font-size:12px;
+                color:#888888;
+            }
+            a:hover{
+                color:#ee2245;
+            }
+        }
     }
 }
