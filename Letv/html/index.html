@@ -7,7 +7,7 @@
     <title>乐融letv电视官方网站</title>
     <link rel="stylesheet" href="css/index.min.css">
     <link rel="stylesheet" href="css/iconfont/iconfont.css">
-    <script src='js/require.js' defer async="true" do-main="js/main.js"></script>
+    <script src='js/require.js' defer async="true" data-main="js/main.js"></script>
 </head>
 <body>
     <!-- 主头部 -->
@@ -74,13 +74,14 @@
             </div>
             <div class="posi">
                 <div class="tab">
-                    <ul class="sidebar">
-                        <li><a href="">爆款推荐<i class="iconfont">&#xe631;</i></a></li>
+                    <ul class="sidebar" id="sidebar">
+                        <!-- <li><a href="">爆款推荐<i class="iconfont">&#xe631;</i></a></li>
                         <li><a href="">屏幕尺寸<i class="iconfont">&#xe631;</i></a></li>
                         <li><a href="">适用场景<i class="iconfont">&#xe631;</i></a></li>
                         <li><a href="">观看距离<i class="iconfont">&#xe631;</i></a></li>
                         <li><a href="">精选配件<i class="iconfont">&#xe631;</i></a></li>
-                        <li><a href="">生活家<i class="iconfont">&#xe631;</i></a></li>
+                        <li><a href="">生活家<i class="iconfont">&#xe631;</i></a></li> -->
+                        <a href="" class="switch-left"><i class="iconfont">&#xe647;</i></a>
                     </ul>
                 </div>
                 <div class="tabs">
@@ -264,18 +265,29 @@
                             <li><a href="">【头条】老将新生? !</a></li>
                         </ul>
                     </div>
+                    <a href="" class="switch-right"><i class="iconfont">&#xe631;</i></a>
                 </div>
             </div>
+            <div class="btns" id="btns">
+                <a href="" class="active"></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+            </div>
+            <!-- <div class="switch">
+                
+                
+            </div> -->
         </div>
     </div>
     <!-- 轮播图 -->
     <div class="bannerbox">
         <div class="ban">
-            <ul>
-                <li class="ban1"><a href=""><img src="images/banner/1569467455865.jpg" alt=""></a></li>
+            <ul id="banul">
+                <!-- <li class="ban1"><a href=""><img src="images/banner/1569467455865.jpg" alt=""></a></li>
                 <li class="ban2"><a href=""><img src="" alt=""></a></li>
                 <li class="ban3"><a href=""><img src="" alt=""></a></li>
-                <li class="ban4"><a href=""><img src="" alt=""></a></li>
+                <li class="ban4"><a href=""><img src="" alt=""></a></li> -->
             </ul>
         </div>
     </div>
@@ -292,7 +304,7 @@
         </div>
     </div>
     <!-- 超级电视 E模块 -->
-    <div class="supertvbox">
+    <div class="supertvbox" id="supertvbox">
         <div class="supertv">
             <div class="supertv-head">
                 <div class="supertv-title">

@@ -282,6 +282,7 @@
             height:420px;
             position:absolute;
             top:152px;
+            z-index: 3;
             .sidebar{
                 width:196px;
                 height:402px;
@@ -313,6 +314,24 @@
                                 font-size:24px;
                             }
                         }
+                    }
+                }
+                .switch-left{
+                    position: absolute;
+                    left:196px;
+                    top:200px;
+                    display:block;
+                    width:47px;
+                    height:55px;
+                    &:hover{
+                        background:black;
+                        opacity: 0.5;
+                        filter:alpha(opacity=50);
+                    }
+                    .iconfont{
+                        font-size:40px;
+                        color:#fff;
+                        line-height:55px;
                     }
                 }
             }
@@ -629,6 +648,45 @@
                         }
                     }
                 }
+                .switch-right{
+                    position: absolute;
+                    right:238px;
+                    top:200px;
+                    display:block;
+                    width:48px;
+                    height:55px;
+                    .iconfont{
+                        color:#fff;
+                        font-size:50px;
+                    }
+                    &:hover{
+                        background:#000;
+                        opacity:0.5;
+                        filter:alpha(opacity=50);
+                    }
+                }
+            }
+        }
+        .btns{
+            width:736px;
+            height:6px;
+            position: absolute;
+            top:555px;
+            position: absolute;
+            z-index:4;
+            padding-left:460px;
+            a{
+                display:block;
+                float:left;
+                width:48px;
+                height:6px;
+                margin:0px 6px;
+                background:#000;
+                opacity: 0.5;
+                filter:alpha(opacity=0.5);
+            }
+            .active{
+                background:orange;
             }
         }
     }
@@ -640,12 +698,14 @@
     .ban{
         width:100%;
         height:420px;
+        position: relative;
         ul{
+            height:420px;
+            overflow: hidden;
             li{
                 width:100%;
                 height:420px;
-                float:left;
-                display:none;
+                // position: absolute;
                 a{
                     width:100%;
                     height:420px;
@@ -659,7 +719,6 @@
             }
             .ban1{
                 background:#1682c0;
-                display:block;
             }
             .ban2{
                 background:#fbe8d9;
@@ -671,7 +730,6 @@
                 background:#fdeae6;
             }
         }
-        
     }
 }
 /* 

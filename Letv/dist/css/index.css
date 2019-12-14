@@ -247,7 +247,8 @@ a {
     .viheadbox .vicehead .posi {
       height: 420px;
       position: absolute;
-      top: 152px; }
+      top: 152px;
+      z-index: 3; }
       .viheadbox .vicehead .posi .sidebar {
         width: 196px;
         height: 402px;
@@ -275,6 +276,21 @@ a {
               background: #2884c7; }
               .viheadbox .vicehead .posi .sidebar li a:hover .iconfont {
                 font-size: 24px; }
+        .viheadbox .vicehead .posi .sidebar .switch-left {
+          position: absolute;
+          left: 196px;
+          top: 200px;
+          display: block;
+          width: 47px;
+          height: 55px; }
+          .viheadbox .vicehead .posi .sidebar .switch-left:hover {
+            background: black;
+            opacity: 0.5;
+            filter: alpha(opacity=50); }
+          .viheadbox .vicehead .posi .sidebar .switch-left .iconfont {
+            font-size: 40px;
+            color: #fff;
+            line-height: 55px; }
       .viheadbox .vicehead .posi .tabs {
         width: 1000px;
         height: 420px;
@@ -513,35 +529,69 @@ a {
               clear: left; }
               .viheadbox .vicehead .posi .permsg .storemsg .newslist li a {
                 font-size: 12px; }
+        .viheadbox .vicehead .posi .permsg .switch-right {
+          position: absolute;
+          right: 238px;
+          top: 200px;
+          display: block;
+          width: 48px;
+          height: 55px; }
+          .viheadbox .vicehead .posi .permsg .switch-right .iconfont {
+            color: #fff;
+            font-size: 50px; }
+          .viheadbox .vicehead .posi .permsg .switch-right:hover {
+            background: #000;
+            opacity: 0.5;
+            filter: alpha(opacity=50); }
+    .viheadbox .vicehead .btns {
+      width: 736px;
+      height: 6px;
+      position: absolute;
+      top: 555px;
+      position: absolute;
+      z-index: 4;
+      padding-left: 460px; }
+      .viheadbox .vicehead .btns a {
+        display: block;
+        float: left;
+        width: 48px;
+        height: 6px;
+        margin: 0px 6px;
+        background: #000;
+        opacity: 0.5;
+        filter: alpha(opacity=0.5); }
+      .viheadbox .vicehead .btns .active {
+        background: orange; }
 
 /* 
     轮播图
 */
 .bannerbox .ban {
   width: 100%;
-  height: 420px; }
-  .bannerbox .ban ul li {
-    width: 100%;
+  height: 420px;
+  position: relative; }
+  .bannerbox .ban ul {
     height: 420px;
-    float: left;
-    display: none; }
-    .bannerbox .ban ul li a {
+    overflow: hidden; }
+    .bannerbox .ban ul li {
       width: 100%;
-      height: 420px;
-      display: block; }
-      .bannerbox .ban ul li a img {
-        width: 1196px;
-        height: 100%;
-        margin: 0 auto; }
-  .bannerbox .ban ul .ban1 {
-    background: #1682c0;
-    display: block; }
-  .bannerbox .ban ul .ban2 {
-    background: #fbe8d9; }
-  .bannerbox .ban ul .ban3 {
-    background: #ee2245; }
-  .bannerbox .ban ul .ban4 {
-    background: #fdeae6; }
+      height: 420px; }
+      .bannerbox .ban ul li a {
+        width: 100%;
+        height: 420px;
+        display: block; }
+        .bannerbox .ban ul li a img {
+          width: 1196px;
+          height: 100%;
+          margin: 0 auto; }
+    .bannerbox .ban ul .ban1 {
+      background: #1682c0; }
+    .bannerbox .ban ul .ban2 {
+      background: #fbe8d9; }
+    .bannerbox .ban ul .ban3 {
+      background: #ee2245; }
+    .bannerbox .ban ul .ban4 {
+      background: #fdeae6; }
 
 /* 
     超级电视 s模块
